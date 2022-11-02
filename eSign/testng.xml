@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Test.TC_SignInTest"/>
+      <class name="Test.TC_SelfSignTest"/> 
+      <class name="Test.TC_CompletedSignTest"/>
+      <class name="Test.TC_RejectedSignTest"/>
+      <class name="Test.TC_SigningDashboardTest"/>   
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
